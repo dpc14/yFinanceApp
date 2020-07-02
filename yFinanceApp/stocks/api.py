@@ -18,6 +18,5 @@ def yfinancetut(tickersymbol):
     priceYesterday = tickerDF['Close'].iloc[-2]
     print(tickerDF)
 
-yfinancetut('TSLA') #Tesla
-print('')
-yfinancetut('VOO') #Vanguard S&P 500 Index ETF
+stockDetail = input("Enter Stock Ticker: ")
+yfinancetut(stockDetail)
