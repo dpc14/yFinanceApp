@@ -1,5 +1,7 @@
 import platform, datetime, yfinance as yf
 
+#yfinance documentation: https://pypi.org/project/yfinance/
+
 print('Python version = ' + platform.python_version())
 print('yfinance version = ' + yf.__version__)
 
