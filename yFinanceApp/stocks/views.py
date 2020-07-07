@@ -20,7 +20,6 @@ class IndexView(TemplateView):
             post = form.save(commit=False)
             post.user = request.user
             post.save()
-
             text = form.cleaned_data['post']
             form = HomeForm()
 
