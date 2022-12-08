@@ -1,4 +1,4 @@
-certifi==2018.8.24
+certifi==2022.12.7
 Django==2.2.14
 pytz==2020.1
 sqlparse==0.3.1
